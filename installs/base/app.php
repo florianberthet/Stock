@@ -2,7 +2,7 @@
 namespace Install;
 
 class App{
-    const C="produit"; //Controleur par défaut
+    const C="categorie"; //Controleur par défaut
     const A="liste"; //Action par défaut
     const NAME='CenStock'; //Nom de l'application
     static $utilisateur=null; //Utilisateur par défault

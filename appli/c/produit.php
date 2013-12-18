@@ -11,7 +11,8 @@ class Produit extends \MVC\Controleur{
     
     static function mouvement()
     {
-        
+        $mouvement = \APPLI\M\Produit::getInstance()->getAll();
+        self::getVue()->mouvement=$mouvement;
     }
     
     static function statistique()
